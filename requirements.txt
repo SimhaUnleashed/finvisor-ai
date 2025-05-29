@@ -85,3 +85,5 @@ python-dotenv
 assemblyai
 streamlit
 SpeechRecognition
+newspaper4k
+lxml_html_clean
