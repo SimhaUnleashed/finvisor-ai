@@ -74,3 +74,12 @@ uvicorn==0.34.2
 watchfiles==1.0.5
 websockets==15.0.1
 yfinance==0.2.59
+google-genai
+exa-py
+mcp
+sec-edgar-downloader
+googlesearch-python
+pycountry
+fastembed
+python-dotenv
+assemblyai

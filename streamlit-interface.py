@@ -1,8 +1,6 @@
 import streamlit as st
 import requests
 import time
-import random
-import pyttsx3
 import streamlit.components.v1 as components
 import assemblyai as aai
 import speech_recognition as sr
