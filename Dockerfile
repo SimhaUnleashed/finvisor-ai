@@ -14,7 +14,10 @@ WORKDIR ${APP_DIR}
 COPY requirements.txt ./
 
 # Install requirements
-RUN uv pip sync requirements.txt --system
+# RUN uv pip sync requirements.txt --system
+RUN python -m pip install --no-cache-dir -r requirements.txt
+
+RUN python -m pip install fastembed
 
 # Copy project files
 COPY . .
