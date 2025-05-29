@@ -83,3 +83,4 @@ pycountry
 fastembed
 python-dotenv
 assemblyai
+streamlit
