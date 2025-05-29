@@ -83,4 +83,3 @@ pycountry
 fastembed
 python-dotenv
 assemblyai
-speech_recognition
