@@ -8,6 +8,8 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
+api_url = os.getenv("API_URL", "http://localhost:8000")
+
 # Configure Streamlit
 st.set_page_config(page_title="Finance Chatbot", page_icon="🧠")
 st.title("Finance Chatbot")
@@ -122,7 +124,7 @@ if prompt:
         full_response = ""
         try:
             with requests.post(
-                "http://localhost:8000/v1/agents/finance_agent/runs",
+                f"{api_url}/v1/agents/finance_agent/runs",
                 json={"message": prompt},
                 stream=True,
                 timeout=30,
