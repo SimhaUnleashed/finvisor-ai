@@ -21,3 +21,12 @@ REV_AI_KEY =
 - Install docker desktop and run `docker compose up -d`
 - Run the streamlit file using  `python -m streamlit-interface.py`
 
+- The FastAPI server is running on localhost:8000.
+- The PostgreSQL database is accessible on localhost:5432.
+-  
+Once started, you can:
+- Test the API at localhost:8000/docs.
+- Connect to Agno Playground or Agent UI:
+- Open the Agno Playground app.agno.com/playground/agents.
+- Add http://localhost:8000 as a new endpoint. You can name it Agent API (or any name you prefer).
+- Select your newly added endpoint and start chatting with your Agents.
