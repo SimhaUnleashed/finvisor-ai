@@ -84,3 +84,4 @@ fastembed
 python-dotenv
 assemblyai
 streamlit
+SpeechRecognition
