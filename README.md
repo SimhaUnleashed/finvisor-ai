@@ -23,7 +23,7 @@ REV_AI_KEY =
 
 - The FastAPI server is running on localhost:8000.
 - The PostgreSQL database is accessible on localhost:5432.
--  
+
 Once started, you can:
 - Test the API at localhost:8000/docs.
 - Connect to Agno Playground or Agent UI:
